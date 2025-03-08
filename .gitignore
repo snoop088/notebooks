@@ -1,0 +1,13 @@
+data
+
+._.DS_Store
+.DS*
+
+.env
+
+.gradio
+.ipynb*
+
+wandb
+
+*__pycache__*

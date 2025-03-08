@@ -1,0 +1,37 @@
+Collecting google-api-python-client
+  Downloading google_api_python_client-2.151.0-py2.py3-none-any.whl.metadata (6.7 kB)
+Collecting httplib2<1.dev0,>=0.19.0 (from google-api-python-client)
+  Downloading httplib2-0.22.0-py3-none-any.whl.metadata (2.6 kB)
+Requirement already satisfied: google-auth!=2.24.0,!=2.25.0,<3.0.0.dev0,>=1.32.0 in /opt/conda/lib/python3.11/site-packages (from google-api-python-client) (2.32.0)
+Collecting google-auth-httplib2<1.0.0,>=0.2.0 (from google-api-python-client)
+  Downloading google_auth_httplib2-0.2.0-py2.py3-none-any.whl.metadata (2.2 kB)
+Collecting google-api-core!=2.0.*,!=2.1.*,!=2.2.*,!=2.3.0,<3.0.0.dev0,>=1.31.5 (from google-api-python-client)
+  Downloading google_api_core-2.22.0-py3-none-any.whl.metadata (2.9 kB)
+Collecting uritemplate<5,>=3.0.1 (from google-api-python-client)
+  Downloading uritemplate-4.1.1-py2.py3-none-any.whl.metadata (2.9 kB)
+Requirement already satisfied: googleapis-common-protos<2.0.dev0,>=1.56.2 in /opt/conda/lib/python3.11/site-packages (from google-api-core!=2.0.*,!=2.1.*,!=2.2.*,!=2.3.0,<3.0.0.dev0,>=1.31.5->google-api-python-client) (1.63.2)
+Requirement already satisfied: protobuf!=3.20.0,!=3.20.1,!=4.21.0,!=4.21.1,!=4.21.2,!=4.21.3,!=4.21.4,!=4.21.5,<6.0.0.dev0,>=3.19.5 in /opt/conda/lib/python3.11/site-packages (from google-api-core!=2.0.*,!=2.1.*,!=2.2.*,!=2.3.0,<3.0.0.dev0,>=1.31.5->google-api-python-client) (4.25.3)
+Collecting proto-plus<2.0.0dev,>=1.22.3 (from google-api-core!=2.0.*,!=2.1.*,!=2.2.*,!=2.3.0,<3.0.0.dev0,>=1.31.5->google-api-python-client)
+  Downloading proto_plus-1.25.0-py3-none-any.whl.metadata (2.2 kB)
+Requirement already satisfied: requests<3.0.0.dev0,>=2.18.0 in /opt/conda/lib/python3.11/site-packages (from google-api-core!=2.0.*,!=2.1.*,!=2.2.*,!=2.3.0,<3.0.0.dev0,>=1.31.5->google-api-python-client) (2.32.3)
+Requirement already satisfied: cachetools<6.0,>=2.0.0 in /opt/conda/lib/python3.11/site-packages (from google-auth!=2.24.0,!=2.25.0,<3.0.0.dev0,>=1.32.0->google-api-python-client) (5.4.0)
+Requirement already satisfied: pyasn1-modules>=0.2.1 in /opt/conda/lib/python3.11/site-packages (from google-auth!=2.24.0,!=2.25.0,<3.0.0.dev0,>=1.32.0->google-api-python-client) (0.4.0)
+Requirement already satisfied: rsa<5,>=3.1.4 in /opt/conda/lib/python3.11/site-packages (from google-auth!=2.24.0,!=2.25.0,<3.0.0.dev0,>=1.32.0->google-api-python-client) (4.9)
+Requirement already satisfied: pyparsing!=3.0.0,!=3.0.1,!=3.0.2,!=3.0.3,<4,>=2.4.2 in /opt/conda/lib/python3.11/site-packages (from httplib2<1.dev0,>=0.19.0->google-api-python-client) (3.1.2)
+Requirement already satisfied: pyasn1<0.7.0,>=0.4.6 in /opt/conda/lib/python3.11/site-packages (from pyasn1-modules>=0.2.1->google-auth!=2.24.0,!=2.25.0,<3.0.0.dev0,>=1.32.0->google-api-python-client) (0.6.0)
+Requirement already satisfied: charset-normalizer<4,>=2 in /opt/conda/lib/python3.11/site-packages (from requests<3.0.0.dev0,>=2.18.0->google-api-core!=2.0.*,!=2.1.*,!=2.2.*,!=2.3.0,<3.0.0.dev0,>=1.31.5->google-api-python-client) (3.3.2)
+Requirement already satisfied: idna<4,>=2.5 in /opt/conda/lib/python3.11/site-packages (from requests<3.0.0.dev0,>=2.18.0->google-api-core!=2.0.*,!=2.1.*,!=2.2.*,!=2.3.0,<3.0.0.dev0,>=1.31.5->google-api-python-client) (3.7)
+Requirement already satisfied: urllib3<3,>=1.21.1 in /opt/conda/lib/python3.11/site-packages (from requests<3.0.0.dev0,>=2.18.0->google-api-core!=2.0.*,!=2.1.*,!=2.2.*,!=2.3.0,<3.0.0.dev0,>=1.31.5->google-api-python-client) (2.2.2)
+Requirement already satisfied: certifi>=2017.4.17 in /opt/conda/lib/python3.11/site-packages (from requests<3.0.0.dev0,>=2.18.0->google-api-core!=2.0.*,!=2.1.*,!=2.2.*,!=2.3.0,<3.0.0.dev0,>=1.31.5->google-api-python-client) (2024.7.4)
+Downloading google_api_python_client-2.151.0-py2.py3-none-any.whl (12.5 MB)
+[?25l   [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.0/12.5 MB[0m [31m?[0m eta [36m-:--:--[0m[2K   [91m━━━━[0m[91m╸[0m[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m1.6/12.5 MB[0m [31m46.7 MB/s[0m eta [36m0:00:01[0m[2K   [91m━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m4.4/12.5 MB[0m [31m62.2 MB/s[0m eta [36m0:00:01[0m[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m[90m━━━━━━━━━━━━━━━━[0m [32m7.4/12.5 MB[0m [31m67.9 MB/s[0m eta [36m0:00:01[0m[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[90m╺[0m[90m━━━━━━━━━━━[0m [32m8.8/12.5 MB[0m [31m60.9 MB/s[0m eta [36m0:00:01[0m[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m [32m12.5/12.5 MB[0m [31m79.2 MB/s[0m eta [36m0:00:01[0m[2K   [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m [32m12.5/12.5 MB[0m [31m79.2 MB/s[0m eta [36m0:00:01[0m[2K   [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m12.5/12.5 MB[0m [31m60.6 MB/s[0m eta [36m0:00:00[0m
+[?25hDownloading google_api_core-2.22.0-py3-none-any.whl (156 kB)
+[?25l   [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.0/156.5 kB[0m [31m?[0m eta [36m-:--:--[0m[2K   [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m156.5/156.5 kB[0m [31m11.7 MB/s[0m eta [36m0:00:00[0m
+[?25hDownloading google_auth_httplib2-0.2.0-py2.py3-none-any.whl (9.3 kB)
+Downloading httplib2-0.22.0-py3-none-any.whl (96 kB)
+[?25l   [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.0/96.9 kB[0m [31m?[0m eta [36m-:--:--[0m[2K   [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m96.9/96.9 kB[0m [31m7.5 MB/s[0m eta [36m0:00:00[0m
+[?25hDownloading uritemplate-4.1.1-py2.py3-none-any.whl (10 kB)
+Downloading proto_plus-1.25.0-py3-none-any.whl (50 kB)
+[?25l   [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.0/50.1 kB[0m [31m?[0m eta [36m-:--:--[0m[2K   [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m50.1/50.1 kB[0m [31m4.0 MB/s[0m eta [36m0:00:00[0m
+[?25hInstalling collected packages: uritemplate, proto-plus, httplib2, google-auth-httplib2, google-api-core, google-api-python-client
+Successfully installed google-api-core-2.22.0 google-api-python-client-2.151.0 google-auth-httplib2-0.2.0 httplib2-0.22.0 proto-plus-1.25.0 uritemplate-4.1.1
